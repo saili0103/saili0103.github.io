@@ -1,0 +1,13 @@
+name: "Sai-website"
+output_dir: "."
+navbar:
+  title: "Sai Li"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Resume"
+      href: about.html
+output:
+  html_document:
+    theme: flatly
+    css: style.css

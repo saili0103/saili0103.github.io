@@ -1,5 +1,5 @@
 body{ /* Normal  */
-      font-size: 16px;
+      font-size: 18px;
   }
 
 blockquote {
@@ -9,7 +9,7 @@ blockquote {
 img {
   width: 210px;
   display: block;
-  margin: 0 auto;
+  margin: 10 auto;
   float: right;
 }
 
@@ -22,6 +22,6 @@ h2 { /* Header 2 */
     color: DarkBlue;
 }
 h3 { /* Header 3 */
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Times New Roman", Times, serif;
 }

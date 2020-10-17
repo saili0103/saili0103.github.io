@@ -1,0 +1,18 @@
+---
+title: "Biography"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+<img align="right" width="90" height="250" src="me2.jpg">
+
+I am a postdoctoral researcher at Department of Biostatistics, Epidemiology and Informatics at University of Pennsylvania. I obtained my PhD degree at Department of Statistics, Rutgers Univeristy.
+
+My research interests include estimation and inference in high-dimensional models with genetic applications, transfer learning algorithms to borrow information across studies, and causal inference in existence of invalid instrumental variables with applications to Mendelian Randomization.
+
+
+

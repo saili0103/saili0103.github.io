@@ -1,0 +1,114 @@
+---
+title: "Resume" 
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+PDF version is available here.
+```{r echo=FALSE}
+xfun::embed_file('CV-2020.pdf')
+
+```
+
+&nbsp;
+
+## Contact
+Email: sai "dot" li "at" pennmedicine "dot" upenn "dot" edu
+
+Address: Blockley Hall 205, University of Pennsylvania, Philadelphia, PA 19104
+
+Github: https://github.com/saili0103/
+
+&nbsp;
+
+## Current appointment
+
+**Postdoctoral researcher** at 
+Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine, University of Pennsylvania, July 2018 to present.
+
+Mentors: Professor [Hongzhe Lee](http://statgene.med.upenn.edu) and Professor [T. Tony Cai](http://www-stat.wharton.upenn.edu/~tcai/).
+
+&nbsp;
+
+## Education
+
+**Ph.D.**, Department of Statistics and Biostatistics, Rutgers Univeristy, May 2018.
+
+Advisors: Professor [Cun-Hui Zhang](https://stat.rutgers.edu/home/cunhui/) and [Professor Steven Buyske](https://www.stat.rutgers.edu/home/buyske/Home.html).
+                   
+**Bachelor of Economics**, School of Statistics, Renmin University of China, June 2013.
+
+Exchange student, Department of Statistics and Actuarial Science, University of Hong Kong, Spring 2011.
+
+&nbsp;
+
+##Publications
+
+**Sai Li**, Ritwik Mitra, and Cun-Hui Zhang.
+[Comment: An adaptive resampling test for detecting the presence of significant predictors](   http://dx.doi.org/10.1080/01621459.2015.1106404). *Journal of the American Statistical Association*. 110(512): 1455-1456. 2016.
+
+**Sai Li**. [Debiasing the debiased Lasso with bootstrap]( https://arxiv.org/abs/1711.03613). *Electronic Journal of Statistics*, 14(1): 2298-2337,2020. arXiv:1711.03613.
+
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach](https://arxiv.org/abs/1907.06116). *JASA (re-sumbission after major revision)*. 2019.
+
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *submitted to JRSSB*, 2020.
+
+**Sai Li**, T. Tony Cai, and Hongzhe Li.  Transfer learning in large-scale graphical models with false discovery rate control. *submitted to JASA*. 2020.
+
+**Sai Li** and Zijian Guo. Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables. *Technical report*. 2020.
+
+**Sai Li**. 
+ [Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation.](https://arxiv.org/abs/1706.01389) *Technical report*. 2017.
+
+&nbsp;
+
+##Conference talks
+
+ Concurrent session, Women in Statistics and Data Science 2020, online, ``Transfer learning in high-dimensional sparse regression'', 10/2020.
+ 
+Contributed talks, JSM 2019 and JSM 2020.
+
+Invited talk, CMStatistics 2018, Pisa, Italy,``Debiasing the debiased Lasso with bootstrap'', 12/2018.
+
+Poster presentation, Mendelian randomization in the age of large-scale accessible genomics data, Bristol, UK, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation'', 07/2017.
+
+ Student paper competition, WNAR conference, Santa Fe, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation'', 06/17.
+
+
+&nbsp;
+
+##Teaching Experience
+
+**Instructor** (sole responsibility):  
+
+STAT285 (Introductory Statistics for Business), Summer 2016.
+
+
+**Teaching Assistant**:
+
+STAT588 (Financial Data Mining), Fall 2015.
+      
+STAT535 (Advanced Statistical Methods) in Finance, Spring 2015.
+      
+STAT401 (Basic Statistics for Research), Fall 2014.
+      
+STAT379 (Basic Probability \& Statistics), Fall 2014.
+
+&nbsp;
+
+##Awards
+
+Travel Award, Conference on [Mendelian randomization in the age of large-scale accessible genomics data](https://www.mendelianrandomization.org.uk), 07/17.
+
+Student Distinguished Written Paper Award, [WNAR conference](http://wnar.org), 06/17.
+TA/GA Professional Development Fund, 06/15, 06/16.
+
+Certificate of Excellence for attending 3rd Annual Interdisciplinary Quantitative Biology Boot
+  Camp-drug discovery and development, 01/16. 
+
+
+
+
