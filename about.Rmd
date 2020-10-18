@@ -37,7 +37,7 @@ Mentors: Professor [Hongzhe Lee](http://statgene.med.upenn.edu) and Professor [T
 
 **Ph.D.**, Department of Statistics and Biostatistics, Rutgers Univeristy, May 2018.
 
-Advisors: Professor [Cun-Hui Zhang](https://stat.rutgers.edu/home/cunhui/) and [Professor Steven Buyske](https://www.stat.rutgers.edu/home/buyske/Home.html).
+Advisors: Professor [Cun-Hui Zhang](https://stat.rutgers.edu/home/cunhui/) and Professor [Steven Buyske](https://www.stat.rutgers.edu/home/buyske/Home.html).
                    
 **Bachelor of Economics**, School of Statistics, Renmin University of China, June 2013.
 
@@ -47,8 +47,6 @@ Exchange student, Department of Statistics and Actuarial Science, University of 
 
 ##Publications
 
-**Sai Li**, Ritwik Mitra, and Cun-Hui Zhang.
-[Comment: An adaptive resampling test for detecting the presence of significant predictors](   http://dx.doi.org/10.1080/01621459.2015.1106404). *Journal of the American Statistical Association*. 110(512): 1455-1456. 2016.
 
 **Sai Li**. [Debiasing the debiased Lasso with bootstrap]( https://arxiv.org/abs/1711.03613). *Electronic Journal of Statistics*, 14(1): 2298-2337,2020. arXiv:1711.03613.
 
@@ -61,15 +59,20 @@ Exchange student, Department of Statistics and Actuarial Science, University of 
 **Sai Li** and Zijian Guo. Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables. *Technical report*. 2020.
 
 **Sai Li**. 
- [Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation.](https://arxiv.org/abs/1706.01389) *Technical report*. 2017.
+ [Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation](https://arxiv.org/abs/1706.01389). *Technical report*. 2017.
+ 
+**Sai Li**, Ritwik Mitra, and Cun-Hui Zhang.
+[Comment: An adaptive resampling test for detecting the presence of significant predictors](   http://dx.doi.org/10.1080/01621459.2015.1106404). *Journal of the American Statistical Association*. 110(512): 1455-1456. 2016.
 
 &nbsp;
 
-##Conference talks
+##Conference talks and service
 
  Concurrent session, Women in Statistics and Data Science 2020, online, ``Transfer learning in high-dimensional sparse regression'', 10/2020.
  
-Contributed talks, JSM 2019 and JSM 2020.
+Session Chair, Modern Statistical Learning Methods, JSM 2020.
+ 
+Contributed talks, JSM 2019 and JSM 2020. 
 
 Invited talk, CMStatistics 2018, Pisa, Italy,``Debiasing the debiased Lasso with bootstrap'', 12/2018.
 
@@ -104,6 +107,7 @@ STAT379 (Basic Probability \& Statistics), Fall 2014.
 Travel Award, Conference on [Mendelian randomization in the age of large-scale accessible genomics data](https://www.mendelianrandomization.org.uk), 07/17.
 
 Student Distinguished Written Paper Award, [WNAR conference](http://wnar.org), 06/17.
+
 TA/GA Professional Development Fund, 06/15, 06/16.
 
 Certificate of Excellence for attending 3rd Annual Interdisciplinary Quantitative Biology Boot
