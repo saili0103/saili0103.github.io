@@ -8,11 +8,11 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-<img align="right" width="90" height="250" src="me2.jpg">
+<img align="right" scale=0.45 src="me2.jpg">
 
 &nbsp;
 
-I am a postdoctoral researcher at Department of Biostatistics, Epidemiology and Informatics at University of Pennsylvania. 
+I am a postdoctoral researcher at Department of Biostatistics, Epidemiology, and Informatics at University of Pennsylvania. 
 
 I obtained my PhD degree at Department of Statistics, Rutgers Univeristy.
 

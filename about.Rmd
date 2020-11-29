@@ -7,9 +7,10 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-PDF version is available here.
+
+The PDF version of my CV is available here.
 ```{r echo=FALSE}
-xfun::embed_file('CV-2020.pdf')
+xfun::embed_file('SL-CV-2020.pdf')
 
 ```
 
@@ -50,13 +51,14 @@ Exchange student, Department of Statistics and Actuarial Science, University of 
 
 **Sai Li**. [Debiasing the debiased Lasso with bootstrap]( https://arxiv.org/abs/1711.03613). *Electronic Journal of Statistics*, 14(1): 2298-2337,2020. arXiv:1711.03613.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach](https://arxiv.org/abs/1907.06116). *JASA (re-sumbission after major revision)*. 2019.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach](https://arxiv.org/abs/1907.06116). *JASA (re-sumbitted after major revision)*. 2019.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *submitted to JRSSB*, 2020.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *JRSSB (under revision)*, 2020.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li.  Transfer learning in large-scale graphical models with false discovery rate control. *submitted to JASA*. 2020.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Submitted to JASA*. 2020.
 
-**Sai Li** and Zijian Guo. Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables. *Technical report*. 2020.
+**Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *Submitted to JASA*. 2020.
+
 
 **Sai Li**. 
  [Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation](https://arxiv.org/abs/1706.01389). *Technical report*. 2017.
