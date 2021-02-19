@@ -49,15 +49,16 @@ Exchange student, Department of Statistics and Actuarial Science, University of 
 ##Publications
 
 
-**Sai Li**. [Debiasing the debiased Lasso with bootstrap]( https://arxiv.org/abs/1711.03613). *Electronic Journal of Statistics*, 14(1): 2298-2337,2020. arXiv:1711.03613.
+**Sai Li**. [Debiasing the debiased Lasso with bootstrap]( https://arxiv.org/abs/1711.03613). *Electronic Journal of Statistics*, 14(1): 2298-2337,2020. 
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach](https://arxiv.org/abs/1907.06116). *JASA (re-sumbitted after major revision)*. 2019.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach](https://arxiv.org/abs/1907.06116). *Journal of the American Statistical Association (in press)*. 2021.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *JRSSB (under revision)*, 2020.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *JRSSB (revision resubmitted)*, 2020.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Submitted to JASA*. 2020.
+**Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *Journal of the American Statistical Association (under revision)*. 2020.
 
-**Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *Submitted to JASA*. 2020.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Journal of the American Statistical Association (submitted)*. 2020.
+
 
 
 **Sai Li**. 
