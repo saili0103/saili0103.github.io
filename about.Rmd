@@ -17,22 +17,15 @@ xfun::embed_file('SL-CV-2020.pdf')
 &nbsp;
 
 ## Contact
-Email: sai "dot" li "at" pennmedicine "dot" upenn "dot" edu
+Email: saili "at" ruc "dot" edu "dot" cn
 
-Address: Blockley Hall 205, University of Pennsylvania, Philadelphia, PA 19104
+Address: Chongde Building West 713, Renmin University of China, Beijing 100872
 
 Github: https://github.com/saili0103/
 
 &nbsp;
 
-## Current appointment
 
-**Postdoctoral researcher** at 
-Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine, University of Pennsylvania, July 2018 to present.
-
-Mentors: Professor [Hongzhe Lee](http://statgene.med.upenn.edu) and Professor [T. Tony Cai](http://www-stat.wharton.upenn.edu/~tcai/).
-
-&nbsp;
 
 ## Education
 
@@ -46,6 +39,15 @@ Exchange student, Department of Statistics and Actuarial Science, University of 
 
 &nbsp;
 
+## Previous appointment
+
+**Postdoctoral researcher** at 
+Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine, University of Pennsylvania, July 2018 to present.
+
+Mentors: Professor [Hongzhe Lee](http://statgene.med.upenn.edu) and Professor [T. Tony Cai](http://www-stat.wharton.upenn.edu/~tcai/).
+
+&nbsp;
+
 ##Publications
 
 
@@ -53,13 +55,15 @@ Exchange student, Department of Statistics and Actuarial Science, University of 
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach](https://arxiv.org/abs/1907.06116). *Journal of the American Statistical Association (in press)*. 2021.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *JRSSB (revision resubmitted)*, 2020.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *JRSSB (accepted)*, 2021.
+
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Journal of the American Statistical Association (minor revision)*. 2020.
 
 **Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *Journal of the American Statistical Association (under revision)*. 2020.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Journal of the American Statistical Association (submitted)*. 2020.
+Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association (in revision)*. 2021.
 
-
+**Sai Li**, Tianxi Cai, and Rui Duan. [Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach](https://arxiv.org/abs/2108.12112). 2021.
 
 **Sai Li**. 
  [Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation](https://arxiv.org/abs/1706.01389). *Technical report*. 2017.
