@@ -8,11 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-The PDF version of my CV is available here.
-```{r echo=FALSE}
-xfun::embed_file('SL-CV-2020.pdf')
 
-```
 
 &nbsp;
 
@@ -57,13 +53,20 @@ Mentors: Professor [Hongzhe Lee](http://statgene.med.upenn.edu) and Professor [T
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *JRSSB (accepted)*, 2021.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Journal of the American Statistical Association (minor revision)*. 2020.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Journal of the American Statistical Association (accepted)*. 2022.
 
-**Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *Journal of the American Statistical Association (under revision)*. 2020.
+**Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *under revision*. 2020.
+
+**Sai Li**, Linjun Zhang, Tony Cai and Honghze Li. Estimation and inference in high-dimensional generalized linear models with knowledge transfer. *Journal of the American Statistical Association (in revision)*. 2021.
 
 Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association (in revision)*. 2021.
 
-**Sai Li**, Tianxi Cai, and Rui Duan. [Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach](https://arxiv.org/abs/2108.12112). 2021.
+**Sai Li**, Tianxi Cai, and Rui Duan. [Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach](https://arxiv.org/abs/2108.12112). *submitted*. 2021.
+
+Elynn Chen, Michael Jordan, **Sai Li**. [Transferred Q-learning](https://arxiv.org/abs/2202.04709). *submitted*. 2022.
+
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Estimation and Inference with Proxy Data and its Genetic Applications](https://arxiv.org/abs/2201.03727). *Submitted*. 2022.
+
 
 **Sai Li**. 
  [Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation](https://arxiv.org/abs/1706.01389). *Technical report*. 2017.
@@ -92,9 +95,12 @@ Poster presentation, Mendelian randomization in the age of large-scale accessibl
 
 ##Teaching Experience
 
-**Instructor** (sole responsibility):  
+**Instructor**:  
+Statistical models and inference (PhD level), Fall 2021.
 
-STAT285 (Introductory Statistics for Business), Summer 2016.
+Statistical foundations of data science and AI (MS level), Fall 2021.
+
+Introductory Statistics for Business (Undergrad), Summer 2016.
 
 
 **Teaching Assistant**:
