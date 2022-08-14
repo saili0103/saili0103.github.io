@@ -8,11 +8,13 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-
-
 &nbsp;
 
+
+
 ## Contact
+Sai Li, associate professor (without tenure).
+
 Email: saili "at" ruc "dot" edu "dot" cn
 
 Address: Chongde Building West 713, Renmin University of China, Beijing 100872
@@ -38,35 +40,40 @@ Exchange student, Department of Statistics and Actuarial Science, University of 
 ## Previous appointment
 
 **Postdoctoral researcher** at 
-Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine, University of Pennsylvania, July 2018 to present.
+Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine, University of Pennsylvania, July 2018 to June 2021.
 
 Mentors: Professor [Hongzhe Lee](http://statgene.med.upenn.edu) and Professor [T. Tony Cai](http://www-stat.wharton.upenn.edu/~tcai/).
 
+**Assistant Professor** at Institute of Staitistics and Big Data, Renmin University of China, September 2021 to July 2022.
+
 &nbsp;
 
-##Publications
+## Publications
 
 
 **Sai Li**. [Debiasing the debiased Lasso with bootstrap]( https://arxiv.org/abs/1711.03613). *Electronic Journal of Statistics*, 14(1): 2298-2337,2020. 
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach](https://arxiv.org/abs/1907.06116). *Journal of the American Statistical Association (in press)*. 2021.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *JRSSB (accepted)*, 2021.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *JRSSB (in press)*, 2021.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Journal of the American Statistical Association (accepted)*. 2022.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Journal of the American Statistical Association (in press)*. 2022.
 
-**Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *under revision*. 2020.
+Huaxiu Yao, Yu Wang, **Sai Li**, Linjun Zhang, Weixin Liang, James Zou, Chelsea Finn[Improving out-of-distribution robustness via selective augmentation](https://arxiv.org/abs/2201.00299). *ICML 2022*.
 
 **Sai Li**, Linjun Zhang, Tony Cai and Honghze Li. Estimation and inference in high-dimensional generalized linear models with knowledge transfer. *Journal of the American Statistical Association (in revision)*. 2021.
 
 Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association (in revision)*. 2021.
 
-**Sai Li**, Tianxi Cai, and Rui Duan. [Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach](https://arxiv.org/abs/2108.12112). *submitted*. 2021.
+**Sai Li**, Tianxi Cai, and Rui Duan. [Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach](https://arxiv.org/abs/2108.12112). *(in revision)*. 2021.
+
+**Sai Li** and Ting Ye. [A Focusing Framework for Testing Bi-Directional Causal Effects with GWAS Summary Data](https://arxiv.org/abs/2203.06887). *(submitted)*. 2022.
+
+**Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *(submitted)*. 2020.
 
 Elynn Chen, Michael Jordan, **Sai Li**. [Transferred Q-learning](https://arxiv.org/abs/2202.04709). *submitted*. 2022.
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Estimation and Inference with Proxy Data and its Genetic Applications](https://arxiv.org/abs/2201.03727). *Submitted*. 2022.
-
 
 **Sai Li**. 
  [Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation](https://arxiv.org/abs/1706.01389). *Technical report*. 2017.
@@ -76,7 +83,9 @@ Elynn Chen, Michael Jordan, **Sai Li**. [Transferred Q-learning](https://arxiv.o
 
 &nbsp;
 
-##Conference talks and service
+## Conference talks and service
+
+Invited talk, International Chinese Statistical Association, online, ``Estimation and Inference with Proxy Data and its Genetic Applications'',  2022.
 
  Concurrent session, Women in Statistics and Data Science 2020, online, ``Transfer learning in high-dimensional sparse regression'', 10/2020.
  
@@ -84,34 +93,29 @@ Session Chair, Modern Statistical Learning Methods, JSM 2020.
  
 Contributed talks, JSM 2019 and JSM 2020. 
 
+Invited talk, International Chinese Statistical Association, ``Inference for high-dimensional linear mixed-effects mod
+els: A quasi-likelihood approach'', 2019.
+
 Invited talk, CMStatistics 2018, Pisa, Italy,``Debiasing the debiased Lasso with bootstrap'', 12/2018.
+
 
 Poster presentation, Mendelian randomization in the age of large-scale accessible genomics data, Bristol, UK, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation'', 07/2017.
 
- Student paper competition, WNAR conference, Santa Fe, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation'', 06/17.
+Student paper competition, WNAR conference, Santa Fe, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation'', 06/17.
 
 
 &nbsp;
 
-##Teaching Experience
+## Teaching Experience
 
-**Instructor**:  
+Natural Language Processing (PhD level), Spring 2022.
+
 Statistical models and inference (PhD level), Fall 2021.
 
 Statistical foundations of data science and AI (MS level), Fall 2021.
 
 Introductory Statistics for Business (Undergrad), Summer 2016.
 
-
-**Teaching Assistant**:
-
-STAT588 (Financial Data Mining), Fall 2015.
-      
-STAT535 (Advanced Statistical Methods) in Finance, Spring 2015.
-      
-STAT401 (Basic Statistics for Research), Fall 2014.
-      
-STAT379 (Basic Probability \& Statistics), Fall 2014.
 
 &nbsp;
 

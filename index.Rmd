@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp;
 
-Assistant professor at the Institute of Statistics and Big Data at Renmin University of China started in September 2021.
+Welcome! I am currently an associate professor (without tenure) at the Institute of Statistics and Big Data at Renmin University of China.
 
 I worked as a postdoctoral researcher at Department of Biostatistics, Epidemiology, and Informatics at University of Pennsylvania. I obtained my PhD degree at Department of Statistics, Rutgers Univeristy.
 

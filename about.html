@@ -13,12 +13,22 @@
 
 <title>Resume</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -33,11 +43,6 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
-<style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -50,32 +55,6 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
 
 
 <link rel="stylesheet" href="style.css" type="text/css" />
@@ -87,10 +66,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -107,40 +82,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -168,7 +116,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -180,7 +128,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -191,10 +139,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -206,7 +167,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -288,6 +248,9 @@ $(document).ready(function () {
 <li>
   <a href="about.html">Resume</a>
 </li>
+<li>
+  <a href="pubs.html">Research by topics</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         
@@ -296,7 +259,7 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -308,7 +271,8 @@ $(document).ready(function () {
 <p> </p>
 <div id="contact" class="section level2">
 <h2>Contact</h2>
-<p>Email: saili &quot;at&quot; ruc &quot;dot&quot; edu &quot;dot&quot; cn</p>
+<p>Sai Li, associate professor (without tenure).</p>
+<p>Email: saili “at” ruc “dot” edu “dot” cn</p>
 <p>Address: Chongde Building West 713, Renmin University of China, Beijing 100872</p>
 <p>Github: <a href="https://github.com/saili0103/" class="uri">https://github.com/saili0103/</a></p>
 <p> </p>
@@ -323,20 +287,23 @@ $(document).ready(function () {
 </div>
 <div id="previous-appointment" class="section level2">
 <h2>Previous appointment</h2>
-<p><strong>Postdoctoral researcher</strong> at Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine, University of Pennsylvania, July 2018 to present.</p>
+<p><strong>Postdoctoral researcher</strong> at Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine, University of Pennsylvania, July 2018 to June 2021.</p>
 <p>Mentors: Professor <a href="http://statgene.med.upenn.edu">Hongzhe Lee</a> and Professor <a href="http://www-stat.wharton.upenn.edu/~tcai/">T. Tony Cai</a>.</p>
+<p><strong>Assistant Professor</strong> at Institute of Staitistics and Big Data, Renmin University of China, September 2021 to July 2022.</p>
 <p> </p>
 </div>
 <div id="publications" class="section level2">
 <h2>Publications</h2>
 <p><strong>Sai Li</strong>. <a href="https://arxiv.org/abs/1711.03613">Debiasing the debiased Lasso with bootstrap</a>. <em>Electronic Journal of Statistics</em>, 14(1): 2298-2337,2020.</p>
 <p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/1907.06116">Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach</a>. <em>Journal of the American Statistical Association (in press)</em>. 2021.</p>
-<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2006.10593">Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality</a>. <em>JRSSB (accepted)</em>, 2021.</p>
-<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2010.11037">Transfer learning in large-scale graphical models with false discovery rate control</a>. <em>Journal of the American Statistical Association (accepted)</em>. 2022.</p>
-<p><strong>Sai Li</strong> and Zijian Guo. <a href="http://arxiv.org/abs/2010.09922">Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables</a>. <em>under revision</em>. 2020.</p>
+<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2006.10593">Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality</a>. <em>JRSSB (in press)</em>, 2021.</p>
+<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2010.11037">Transfer learning in large-scale graphical models with false discovery rate control</a>. <em>Journal of the American Statistical Association (in press)</em>. 2022.</p>
+<p>Huaxiu Yao, Yu Wang, <strong>Sai Li</strong>, Linjun Zhang, Weixin Liang, James Zou, Chelsea Finn<a href="https://arxiv.org/abs/2201.00299">Improving out-of-distribution robustness via selective augmentation</a>. <em>ICML 2022</em>.</p>
 <p><strong>Sai Li</strong>, Linjun Zhang, Tony Cai and Honghze Li. Estimation and inference in high-dimensional generalized linear models with knowledge transfer. <em>Journal of the American Statistical Association (in revision)</em>. 2021.</p>
 <p>Jianqiao Wang, <strong>Sai Li</strong>, and Hongzhe Li. <a href="https://arxiv.org/abs/2106.04106">A unified approach to robust inference for genetic covariance</a>. <em>Journal of the American Statistical Association (in revision)</em>. 2021.</p>
-<p><strong>Sai Li</strong>, Tianxi Cai, and Rui Duan. <a href="https://arxiv.org/abs/2108.12112">Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach</a>. <em>submitted</em>. 2021.</p>
+<p><strong>Sai Li</strong>, Tianxi Cai, and Rui Duan. <a href="https://arxiv.org/abs/2108.12112">Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach</a>. <em>(in revision)</em>. 2021.</p>
+<p><strong>Sai Li</strong> and Ting Ye. <a href="https://arxiv.org/abs/2203.06887">A Focusing Framework for Testing Bi-Directional Causal Effects with GWAS Summary Data</a>. <em>(submitted)</em>. 2022.</p>
+<p><strong>Sai Li</strong> and Zijian Guo. <a href="http://arxiv.org/abs/2010.09922">Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables</a>. <em>(submitted)</em>. 2020.</p>
 <p>Elynn Chen, Michael Jordan, <strong>Sai Li</strong>. <a href="https://arxiv.org/abs/2202.04709">Transferred Q-learning</a>. <em>submitted</em>. 2022.</p>
 <p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2201.03727">Estimation and Inference with Proxy Data and its Genetic Applications</a>. <em>Submitted</em>. 2022.</p>
 <p><strong>Sai Li</strong>. <a href="https://arxiv.org/abs/1706.01389">Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation</a>. <em>Technical report</em>. 2017.</p>
@@ -345,29 +312,24 @@ $(document).ready(function () {
 </div>
 <div id="conference-talks-and-service" class="section level2">
 <h2>Conference talks and service</h2>
-<p>Concurrent session, Women in Statistics and Data Science 2020, online, ``Transfer learning in high-dimensional sparse regression'', 10/2020.</p>
+<p>Invited talk, International Chinese Statistical Association, online, ``Estimation and Inference with Proxy Data and its Genetic Applications’’, 2022.</p>
+<p>Concurrent session, Women in Statistics and Data Science 2020, online, ``Transfer learning in high-dimensional sparse regression’’, 10/2020.</p>
 <p>Session Chair, Modern Statistical Learning Methods, JSM 2020.</p>
 <p>Contributed talks, JSM 2019 and JSM 2020.</p>
-<p>Invited talk, CMStatistics 2018, Pisa, Italy,``Debiasing the debiased Lasso with bootstrap'', 12/2018.</p>
-<p>Poster presentation, Mendelian randomization in the age of large-scale accessible genomics data, Bristol, UK, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation'', 07/2017.</p>
-<p>Student paper competition, WNAR conference, Santa Fe, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation'', 06/17.</p>
+<p>Invited talk, International Chinese Statistical Association, ``Inference for high-dimensional linear mixed-effects mod els: A quasi-likelihood approach’’, 2019.</p>
+<p>Invited talk, CMStatistics 2018, Pisa, Italy,``Debiasing the debiased Lasso with bootstrap’’, 12/2018.</p>
+<p>Poster presentation, Mendelian randomization in the age of large-scale accessible genomics data, Bristol, UK, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation’’, 07/2017.</p>
+<p>Student paper competition, WNAR conference, Santa Fe, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation’’, 06/17.</p>
 <p> </p>
 </div>
 <div id="teaching-experience" class="section level2">
 <h2>Teaching Experience</h2>
-<p><strong>Instructor</strong>:<br />
-Statistical models and inference (PhD level), Fall 2021.</p>
+<p>Natural Language Processing (PhD level), Spring 2022.</p>
+<p>Statistical models and inference (PhD level), Fall 2021.</p>
 <p>Statistical foundations of data science and AI (MS level), Fall 2021.</p>
 <p>Introductory Statistics for Business (Undergrad), Summer 2016.</p>
-<p><strong>Teaching Assistant</strong>:</p>
-<p>STAT588 (Financial Data Mining), Fall 2015.</p>
-<p>STAT535 (Advanced Statistical Methods) in Finance, Spring 2015.</p>
-<p>STAT401 (Basic Statistics for Research), Fall 2014.</p>
-<p>STAT379 (Basic Probability &amp; Statistics), Fall 2014.</p>
 <p> </p>
-</div>
-<div id="awards" class="section level2">
-<h2>Awards</h2>
+<p>##Awards</p>
 <p>Travel Award, Conference on <a href="https://www.mendelianrandomization.org.uk">Mendelian randomization in the age of large-scale accessible genomics data</a>, 07/17.</p>
 <p>Student Distinguished Written Paper Award, <a href="http://wnar.org">WNAR conference</a>, 06/17.</p>
 <p>TA/GA Professional Development Fund, 06/15, 06/16.</p>
@@ -401,7 +363,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
