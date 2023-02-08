@@ -13,7 +13,7 @@
 
 <title>Resume</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -233,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -249,7 +253,7 @@ $(document).ready(function () {
   <a href="about.html">Resume</a>
 </li>
 <li>
-  <a href="pubs.html">Research by topics</a>
+  <a href="pubs.html">Research</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -271,69 +275,135 @@ $(document).ready(function () {
 <p> </p>
 <div id="contact" class="section level2">
 <h2>Contact</h2>
-<p>Sai Li, associate professor (without tenure).</p>
 <p>Email: saili “at” ruc “dot” edu “dot” cn</p>
-<p>Address: Chongde Building West 713, Renmin University of China, Beijing 100872</p>
-<p>Github: <a href="https://github.com/saili0103/" class="uri">https://github.com/saili0103/</a></p>
+<p>Address: Chongde Building West 713, Renmin University of China,
+Beijing 100872</p>
+<p>Github: <a href="https://github.com/saili0103/"
+class="uri">https://github.com/saili0103/</a></p>
 <p> </p>
 </div>
 <div id="education" class="section level2">
 <h2>Education</h2>
-<p><strong>Ph.D.</strong>, Department of Statistics and Biostatistics, Rutgers Univeristy, May 2018.</p>
-<p>Advisors: Professor <a href="https://stat.rutgers.edu/home/cunhui/">Cun-Hui Zhang</a> and Professor <a href="https://www.stat.rutgers.edu/home/buyske/Home.html">Steven Buyske</a>.</p>
-<p><strong>Bachelor of Economics</strong>, School of Statistics, Renmin University of China, June 2013.</p>
-<p>Exchange student, Department of Statistics and Actuarial Science, University of Hong Kong, Spring 2011.</p>
+<p><strong>Ph.D.</strong>, Department of Statistics and Biostatistics,
+Rutgers Univeristy, May 2018.</p>
+<p>Advisors: Professor <a
+href="https://stat.rutgers.edu/home/cunhui/">Cun-Hui Zhang</a> and
+Professor <a
+href="https://www.stat.rutgers.edu/home/buyske/Home.html">Steven
+Buyske</a>.</p>
+<p><strong>Bachelor of Economics</strong>, School of Statistics, Renmin
+University of China, June 2013.</p>
+<p>Exchange student, Department of Statistics and Actuarial Science,
+University of Hong Kong, Spring 2011.</p>
 <p> </p>
 </div>
 <div id="previous-appointment" class="section level2">
 <h2>Previous appointment</h2>
-<p><strong>Postdoctoral researcher</strong> at Department of Biostatistics, Epidemiology and Informatics, Perelman School of Medicine, University of Pennsylvania, July 2018 to June 2021.</p>
-<p>Mentors: Professor <a href="http://statgene.med.upenn.edu">Hongzhe Lee</a> and Professor <a href="http://www-stat.wharton.upenn.edu/~tcai/">T. Tony Cai</a>.</p>
-<p><strong>Assistant Professor</strong> at Institute of Staitistics and Big Data, Renmin University of China, September 2021 to July 2022.</p>
+<p><strong>Assistant professor</strong> at Institute of Statistics and
+Big Data, Renmin University of China, September 2021 to August 2022.</p>
+<p><strong>Postdoctoral researcher</strong> at Department of
+Biostatistics, Epidemiology and Informatics, Perelman School of
+Medicine, University of Pennsylvania, July 2018 to June 2021.</p>
+<p>Mentors: Professor <a href="http://statgene.med.upenn.edu">Hongzhe
+Lee</a> and Professor <a
+href="http://www-stat.wharton.upenn.edu/~tcai/">T. Tony Cai</a>.</p>
 <p> </p>
 </div>
 <div id="publications" class="section level2">
 <h2>Publications</h2>
-<p><strong>Sai Li</strong>. <a href="https://arxiv.org/abs/1711.03613">Debiasing the debiased Lasso with bootstrap</a>. <em>Electronic Journal of Statistics</em>, 14(1): 2298-2337,2020.</p>
-<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/1907.06116">Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach</a>. <em>Journal of the American Statistical Association (in press)</em>. 2021.</p>
-<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2006.10593">Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality</a>. <em>JRSSB (in press)</em>, 2021.</p>
-<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2010.11037">Transfer learning in large-scale graphical models with false discovery rate control</a>. <em>Journal of the American Statistical Association (in press)</em>. 2022.</p>
-<p>Huaxiu Yao, Yu Wang, <strong>Sai Li</strong>, Linjun Zhang, Weixin Liang, James Zou, Chelsea Finn<a href="https://arxiv.org/abs/2201.00299">Improving out-of-distribution robustness via selective augmentation</a>. <em>ICML 2022</em>.</p>
-<p><strong>Sai Li</strong>, Linjun Zhang, Tony Cai and Honghze Li. Estimation and inference in high-dimensional generalized linear models with knowledge transfer. <em>Journal of the American Statistical Association (in revision)</em>. 2021.</p>
-<p>Jianqiao Wang, <strong>Sai Li</strong>, and Hongzhe Li. <a href="https://arxiv.org/abs/2106.04106">A unified approach to robust inference for genetic covariance</a>. <em>Journal of the American Statistical Association (in revision)</em>. 2021.</p>
-<p><strong>Sai Li</strong>, Tianxi Cai, and Rui Duan. <a href="https://arxiv.org/abs/2108.12112">Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach</a>. <em>(in revision)</em>. 2021.</p>
-<p><strong>Sai Li</strong> and Ting Ye. <a href="https://arxiv.org/abs/2203.06887">A Focusing Framework for Testing Bi-Directional Causal Effects with GWAS Summary Data</a>. <em>(submitted)</em>. 2022.</p>
-<p><strong>Sai Li</strong> and Zijian Guo. <a href="http://arxiv.org/abs/2010.09922">Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables</a>. <em>(submitted)</em>. 2020.</p>
-<p>Elynn Chen, Michael Jordan, <strong>Sai Li</strong>. <a href="https://arxiv.org/abs/2202.04709">Transferred Q-learning</a>. <em>submitted</em>. 2022.</p>
-<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2201.03727">Estimation and Inference with Proxy Data and its Genetic Applications</a>. <em>Submitted</em>. 2022.</p>
-<p><strong>Sai Li</strong>. <a href="https://arxiv.org/abs/1706.01389">Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation</a>. <em>Technical report</em>. 2017.</p>
-<p><strong>Sai Li</strong>, Ritwik Mitra, and Cun-Hui Zhang. <a href="http://dx.doi.org/10.1080/01621459.2015.1106404">Comment: An adaptive resampling test for detecting the presence of significant predictors</a>. <em>Journal of the American Statistical Association</em>. 110(512): 1455-1456. 2016.</p>
+<p><strong>Sai Li</strong>. <a
+href="https://arxiv.org/abs/1711.03613">Debiasing the debiased Lasso
+with bootstrap</a>. <em>Electronic Journal of Statistics</em>, 14(1):
+2298-2337,2020.</p>
+<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a
+href="https://arxiv.org/abs/1907.06116">Inference for high-dimensional
+linear mixed-effects models: A quasi-likelihood approach</a>.
+<em>Journal of the American Statistical Association</em>. 117(540):
+1835-1846, 2022.</p>
+<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a
+href="https://arxiv.org/abs/2006.10593">Transfer learning for
+high-dimensional linear regression: Prediction, estimation, and minimax
+optimality</a>. <em>JRSSB (accepted)</em>, 2021.</p>
+<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a
+href="https://arxiv.org/abs/2010.11037">Transfer learning in large-scale
+graphical models with false discovery rate control</a>. <em>Journal of
+the American Statistical Association (accepted)</em>. 2022.</p>
+<p>Huaxiu Yao, Yu Wang, <strong>Sai Li</strong>, Linjun Zhang, Weixin
+Liang, James Zou, and Chelsea Finn. <a
+href="https://arxiv.org/abs/2201.00299">Improving out-of-distribution
+robustness via selective augmentation</a>. <em>International Conference
+of Machine Learning</em>. 2022.</p>
+<p><strong>Sai Li</strong>, Tianxi Cai, and Rui Duan. <a
+href="https://arxiv.org/abs/2108.12112">Targeting Underrepresented
+Populations in Precision Medicine: A Federated Transfer Learning
+Approach</a>. <em>Annals of Applied Statistics (accepted)</em>.
+2023.</p>
+<p><strong>Sai Li</strong> and Zijian Guo. <a
+href="http://arxiv.org/abs/2010.09922">Causal inference for nonlinear
+outcomes with possibly invalid instrumentalvariables</a>. <em>under
+revision</em>. 2020.</p>
+<p><strong>Sai Li</strong>, Linjun Zhang, Tony Cai and Honghze Li.
+Estimation and inference in high-dimensional generalized linear models
+with knowledge transfer. <em>Journal of the American Statistical
+Association (in revision)</em>. 2021.</p>
+<p>Jianqiao Wang, <strong>Sai Li</strong>, and Hongzhe Li. <a
+href="https://arxiv.org/abs/2106.04106">A unified approach to robust
+inference for genetic covariance</a>. <em>Journal of the American
+Statistical Association (in revision)</em>. 2021.</p>
+<p>Elynn Chen, Michael Jordan, <strong>Sai Li</strong>. <a
+href="https://arxiv.org/abs/2202.04709">Transferred Q-learning</a>.
+<em>submitted</em>. 2022.</p>
+<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a
+href="https://arxiv.org/abs/2201.03727">Estimation and Inference with
+Proxy Data and its Genetic Applications</a>. <em>Submitted</em>.
+2022.</p>
+<p><strong>Sai Li</strong> and Ting Ye. <a
+href="https://arxiv.org/abs/2203.06887">A Focusing Framework for Testing
+Bi-Directional Causal Effects with GWAS Summary Data</a>.
+<em>Submitted</em>. 2022.</p>
+<p><strong>Sai Li</strong>, Ritwik Mitra, and Cun-Hui Zhang. <a
+href="http://dx.doi.org/10.1080/01621459.2015.1106404">Comment: An
+adaptive resampling test for detecting the presence of significant
+predictors</a>. <em>Journal of the American Statistical
+Association</em>. 110(512): 1455-1456. 2016.</p>
 <p> </p>
 </div>
 <div id="conference-talks-and-service" class="section level2">
 <h2>Conference talks and service</h2>
-<p>Invited talk, International Chinese Statistical Association, online, ``Estimation and Inference with Proxy Data and its Genetic Applications’’, 2022.</p>
-<p>Concurrent session, Women in Statistics and Data Science 2020, online, ``Transfer learning in high-dimensional sparse regression’’, 10/2020.</p>
+<p>Concurrent session, Women in Statistics and Data Science 2020,
+online, ``Transfer learning in high-dimensional sparse regression’’,
+10/2020.</p>
 <p>Session Chair, Modern Statistical Learning Methods, JSM 2020.</p>
 <p>Contributed talks, JSM 2019 and JSM 2020.</p>
-<p>Invited talk, International Chinese Statistical Association, ``Inference for high-dimensional linear mixed-effects mod els: A quasi-likelihood approach’’, 2019.</p>
-<p>Invited talk, CMStatistics 2018, Pisa, Italy,``Debiasing the debiased Lasso with bootstrap’’, 12/2018.</p>
-<p>Poster presentation, Mendelian randomization in the age of large-scale accessible genomics data, Bristol, UK, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation’’, 07/2017.</p>
-<p>Student paper competition, WNAR conference, Santa Fe, ``Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation’’, 06/17.</p>
+<p>Invited talk, CMStatistics 2018, Pisa, Italy,``Debiasing the debiased
+Lasso with bootstrap’’, 12/2018.</p>
+<p>Poster presentation, Mendelian randomization in the age of
+large-scale accessible genomics data, Bristol, UK, ``Mendelian
+Randomization when many instruments are invalid: hierarchical empirical
+Bayes estimation’’, 07/2017.</p>
+<p>Student paper competition, WNAR conference, Santa Fe, ``Mendelian
+Randomization when many instruments are invalid: hierarchical empirical
+Bayes estimation’’, 06/17.</p>
 <p> </p>
 </div>
-<div id="teaching-experience" class="section level2">
-<h2>Teaching Experience</h2>
-<p>Natural Language Processing (PhD level), Spring 2022.</p>
-<p>Statistical models and inference (PhD level), Fall 2021.</p>
-<p>Statistical foundations of data science and AI (MS level), Fall 2021.</p>
+<div id="teaching" class="section level2">
+<h2>Teaching</h2>
+<p><strong>Instructor</strong>:<br />
+Statistical models and inference (PhD level), Fall 2021.</p>
+<p>Statistical foundations of data science and AI (MS level), Fall
+2021.</p>
 <p>Introductory Statistics for Business (Undergrad), Summer 2016.</p>
 <p> </p>
 <p>##Awards</p>
-<p>Travel Award, Conference on <a href="https://www.mendelianrandomization.org.uk">Mendelian randomization in the age of large-scale accessible genomics data</a>, 07/17.</p>
-<p>Student Distinguished Written Paper Award, <a href="http://wnar.org">WNAR conference</a>, 06/17.</p>
+<p>Travel Award, Conference on <a
+href="https://www.mendelianrandomization.org.uk">Mendelian randomization
+in the age of large-scale accessible genomics data</a>, 07/17.</p>
+<p>Student Distinguished Written Paper Award, <a
+href="http://wnar.org">WNAR conference</a>, 06/17.</p>
 <p>TA/GA Professional Development Fund, 06/15, 06/16.</p>
-<p>Certificate of Excellence for attending 3rd Annual Interdisciplinary Quantitative Biology Boot Camp-drug discovery and development, 01/16.</p>
+<p>Certificate of Excellence for attending 3rd Annual Interdisciplinary
+Quantitative Biology Boot Camp-drug discovery and development,
+01/16.</p>
 </div>
 
 

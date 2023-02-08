@@ -13,7 +13,7 @@
 
 <title>Biography</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -233,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -249,7 +253,7 @@ $(document).ready(function () {
   <a href="about.html">Resume</a>
 </li>
 <li>
-  <a href="pubs.html">Research by topics</a>
+  <a href="pubs.html">Research</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -270,14 +274,21 @@ $(document).ready(function () {
 
 <p><img align="right" scale=0.45 src="me2.jpg"></p>
 <p> </p>
-<p>Welcome! I am currently an associate professor (without tenure) at the Institute of Statistics and Big Data at Renmin University of China.</p>
-<p>I worked as a postdoctoral researcher at Department of Biostatistics, Epidemiology, and Informatics at University of Pennsylvania. I obtained my PhD degree at Department of Statistics, Rutgers Univeristy.</p>
+<p>Welcome! I am currently an associate professor (without tenure) at
+the Institute of Statistics and Big Data, Renmin University of
+China.</p>
+<p>I worked as a postdoctoral researcher at Department of Biostatistics,
+Epidemiology, and Informatics, University of Pennsylvania. I obtained my
+PhD degree at Department of Statistics, Rutgers Univeristy.</p>
 <p>   </p>
 <p>My research interests include:</p>
 <ol style="list-style-type: decimal">
-<li><p>Methods for estimation and inference in high-dimensional models with genetic applications.</p></li>
-<li><p>New methods and statistical guarantees for machine learning topics.</p></li>
-<li><p>Causal inference in existence of invalid instrumental variables with applications to Mendelian Randomization.</p></li>
+<li><p>Methods for estimation and inference in high-dimensional models
+with genetic applications.</p></li>
+<li><p>New methods and statistical guarantees for machine learning
+topics.</p></li>
+<li><p>Causal inference in existence of invalid instrumental variables
+with applications to Mendelian Randomization.</p></li>
 </ol>
 
 

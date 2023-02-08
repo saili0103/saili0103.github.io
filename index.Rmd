@@ -12,9 +12,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 &nbsp;
 
-Welcome! I am currently an associate professor (without tenure) at the Institute of Statistics and Big Data at Renmin University of China.
+Welcome! I am currently an associate professor (without tenure) at the Institute of Statistics and Big Data, Renmin University of China.
 
-I worked as a postdoctoral researcher at Department of Biostatistics, Epidemiology, and Informatics at University of Pennsylvania. I obtained my PhD degree at Department of Statistics, Rutgers Univeristy.
+I worked as a postdoctoral researcher at Department of Biostatistics, Epidemiology, and Informatics, University of Pennsylvania. I obtained my PhD degree at Department of Statistics, Rutgers Univeristy.
 
 &nbsp;
 &nbsp;

@@ -13,7 +13,7 @@
 
 <title>Research by topics</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -233,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -249,7 +253,7 @@ $(document).ready(function () {
   <a href="about.html">Resume</a>
 </li>
 <li>
-  <a href="pubs.html">Research by topics</a>
+  <a href="pubs.html">Research</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -269,34 +273,77 @@ $(document).ready(function () {
 
 
 <p> </p>
-<div id="high-dimensional-estimation-inference" class="section level2">
-<h2>High-dimensional estimation &amp; inference</h2>
-<p><strong>Sai Li</strong>. <a href="https://arxiv.org/abs/1711.03613">Debiasing the debiased Lasso with bootstrap</a>. <em>Electronic Journal of Statistics</em>, 14(1): 2298-2337,2020.</p>
-<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/1907.06116">Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach</a>. <em>Journal of the American Statistical Association (in press)</em>. 2021.</p>
-<p>Jianqiao Wang, <strong>Sai Li</strong>, and Hongzhe Li. <a href="https://arxiv.org/abs/2106.04106">A unified approach to robust inference for genetic covariance</a>. <em>Journal of the American Statistical Association (in revision)</em>. 2021.</p>
-<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2201.03727">Estimation and Inference with Proxy Data and its Genetic Applications</a>. <em>Submitted</em>. 2022.</p>
+<div id="high-dimensional-estimation-and-inference"
+class="section level2">
+<h2>High-dimensional estimation and inference</h2>
+<p><strong>Sai Li</strong>. <a
+href="https://arxiv.org/abs/1711.03613">Debiasing the debiased Lasso
+with bootstrap</a>. <em>Electronic Journal of Statistics</em>, 14(1):
+2298-2337,2020.</p>
+<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a
+href="https://arxiv.org/abs/1907.06116">Inference for high-dimensional
+linear mixed-effects models: A quasi-likelihood approach</a>.
+<em>Journal of the American Statistical Association</em>. 117(540):
+1835-1846, 2022.</p>
+<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a
+href="https://arxiv.org/abs/2201.03727">Estimation and Inference with
+Proxy Data and its Genetic Applications</a>. <em>Submitted</em>.
+2022.</p>
 <p> </p>
 </div>
 <div id="transfer-learning" class="section level2">
 <h2>Transfer learning</h2>
-<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2006.10593">Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality</a>. <em>JRSSB (in press)</em>, 2021.</p>
-<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a href="https://arxiv.org/abs/2010.11037">Transfer learning in large-scale graphical models with false discovery rate control</a>. <em>Journal of the American Statistical Association (in press)</em>. 2022.</p>
-<p><strong>Sai Li</strong>, Linjun Zhang, Tony Cai and Honghze Li. Estimation and inference in high-dimensional generalized linear models with knowledge transfer. <em>Journal of the American Statistical Association (in revision)</em>. 2021.</p>
-<p><strong>Sai Li</strong>, Tianxi Cai, and Rui Duan. <a href="https://arxiv.org/abs/2108.12112">Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach</a>. <em>(in revision)</em>. 2022.</p>
-<p>Elynn Chen, Michael Jordan, <strong>Sai Li</strong>. <a href="https://arxiv.org/abs/2202.04709">Transferred Q-learning</a>. <em>submitted</em>. 2022.</p>
+<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a
+href="https://arxiv.org/abs/2006.10593">Transfer learning for
+high-dimensional linear regression: Prediction, estimation, and minimax
+optimality</a>. <em>JRSSB (accepted)</em>, 2021.</p>
+<p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a
+href="https://arxiv.org/abs/2010.11037">Transfer learning in large-scale
+graphical models with false discovery rate control</a>. <em>Journal of
+the American Statistical Association (accepted)</em>. 2022.</p>
+<p><strong>Sai Li</strong>, Tianxi Cai, and Rui Duan. <a
+href="https://arxiv.org/abs/2108.12112">Targeting Underrepresented
+Populations in Precision Medicine: A Federated Transfer Learning
+Approach</a>. <em>Annals of Applied Statistics (accepted)</em>.
+2023.</p>
+<p><strong>Sai Li</strong>, Linjun Zhang, Tony Cai and Honghze Li.
+Estimation and inference in high-dimensional generalized linear models
+with knowledge transfer. <em>Journal of the American Statistical
+Association (in revision)</em>. 2021.</p>
 <p> </p>
 </div>
 <div id="causal-inference" class="section level2">
 <h2>Causal inference</h2>
-<p><strong>Sai Li</strong> and Zijian Guo. <a href="http://arxiv.org/abs/2010.09922">Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables</a>. <em>(submitted)</em>. 2020.</p>
-<p><strong>Sai Li</strong> and Ting Ye. <a href="https://arxiv.org/abs/2203.06887">A Focusing Framework for Testing Bi-Directional Causal Effects with GWAS Summary Data</a>. <em>(submitted)</em>. 2022.</p>
-<p><strong>Sai Li</strong>. <a href="https://arxiv.org/abs/1706.01389">Mendelian Randomization when many instruments are invalid: hierarchical empirical Bayes estimation</a>. <em>Technical report</em>. 2017.</p>
+<p><strong>Sai Li</strong> and Zijian Guo. <a
+href="http://arxiv.org/abs/2010.09922">Causal inference for nonlinear
+outcomes with possibly invalid instrumentalvariables</a>. <em>in
+revision</em>. 2020.</p>
+<p><strong>Sai Li</strong> and Ting Ye. <a
+href="https://arxiv.org/abs/2203.06887">A Focusing Framework for Testing
+Bi-Directional Causal Effects with GWAS Summary Data</a>.
+<em>Submitted</em>. 2022.</p>
+<p><strong>Sai Li</strong>. <a
+href="https://arxiv.org/abs/1706.01389">Mendelian Randomization when
+many instruments are invalid: hierarchical empirical Bayes
+estimation</a>. <em>Technical report</em>. 2017.</p>
 <p> </p>
 </div>
 <div id="other-collaborative-works" class="section level2">
 <h2>Other collaborative works</h2>
-<p>Huaxiu Yao, Yu Wang, <strong>Sai Li</strong>, Linjun Zhang, Weixin Liang, James Zou, Chelsea Finn<a href="https://arxiv.org/abs/2201.00299">Improving out-of-distribution robustness via selective augmentation</a>. <em>ICML 2022</em>.</p>
-<p><strong>Sai Li</strong>, Ritwik Mitra, and Cun-Hui Zhang. <a href="http://dx.doi.org/10.1080/01621459.2015.1106404">Comment: An adaptive resampling test for detecting the presence of significant predictors</a>. <em>Journal of the American Statistical Association</em>. 110(512): 1455-1456. 2016.</p>
+<p><strong>Sai Li</strong>, Ritwik Mitra, and Cun-Hui Zhang. <a
+href="http://dx.doi.org/10.1080/01621459.2015.1106404">Comment: An
+adaptive resampling test for detecting the presence of significant
+predictors</a>. <em>Journal of the American Statistical
+Association</em>. 110(512): 1455-1456. 2016.</p>
+<p>Jianqiao Wang, <strong>Sai Li</strong>, and Hongzhe Li. <a
+href="https://arxiv.org/abs/2106.04106">A unified approach to robust
+inference for genetic covariance</a>. <em>Journal of the American
+Statistical Association (in revision)</em>. 2021.</p>
+<p>Huaxiu Yao, Yu Wang, <strong>Sai Li</strong>, Linjun Zhang, Weixin
+Liang, James Zou, and Chelsea Finn. <a
+href="https://arxiv.org/abs/2201.00299">Improving out-of-distribution
+robustness via selective augmentation</a>. <em>International Conference
+of Machine Learning</em>. 2022.</p>
 </div>
 
 

@@ -7,7 +7,7 @@ navbar:
       href: index.html
     - text: "Resume"
       href: about.html
-    - text: "Research by topics"
+    - text: "Research"
       href: pubs.html
 output:
   html_document:
