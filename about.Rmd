@@ -112,7 +112,7 @@ Introductory Statistics for Business (Undergrad), Summer 2016.
 
 &nbsp;
 
-##Awards
+## Awards
 
 Travel Award, Conference on [Mendelian randomization in the age of large-scale accessible genomics data](https://www.mendelianrandomization.org.uk), 07/17.
 
