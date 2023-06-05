@@ -61,9 +61,15 @@ Huaxiu Yao, Yu Wang, **Sai Li**, Linjun Zhang, Weixin Liang, James Zou, and Chel
 
 **Sai Li**, Tianxi Cai, and Rui Duan. [Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach](https://arxiv.org/abs/2108.12112). *Annals of Applied Statistics (accepted)*. 2023.
 
+**Sai Li**, Linjun Zhang, T. Tony Cai, and Honghze Li. [Estimation and inference in high-dimensional generalized linear models with knowledge transfer](https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2184373). *Journal of the American Statistical Association (accepted)*. 2023.
+
+ 
+**Sai Li**, Ritwik Mitra, and Cun-Hui Zhang.
+[Comment: An adaptive resampling test for detecting the presence of significant predictors](   http://dx.doi.org/10.1080/01621459.2015.1106404). *Journal of the American Statistical Association*. 110(512): 1455-1456. 2016.
+
+
 **Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *under revision*. 2020.
 
-**Sai Li**, Linjun Zhang, Tony Cai and Honghze Li. Estimation and inference in high-dimensional generalized linear models with knowledge transfer. *Journal of the American Statistical Association (in revision)*. 2021.
 
 Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association (in revision)*. 2021.
 
@@ -74,9 +80,6 @@ Elynn Chen, Michael Jordan, **Sai Li**. [Transferred Q-learning](https://arxiv.o
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Estimation and Inference with Proxy Data and its Genetic Applications](https://arxiv.org/abs/2201.03727). *Submitted*. 2022.
 
 **Sai Li** and Ting Ye. [A Focusing Framework for Testing Bi-Directional Causal Effects with GWAS Summary Data](https://arxiv.org/abs/2203.06887). *Submitted*. 2022.
- 
-**Sai Li**, Ritwik Mitra, and Cun-Hui Zhang.
-[Comment: An adaptive resampling test for detecting the presence of significant predictors](   http://dx.doi.org/10.1080/01621459.2015.1106404). *Journal of the American Statistical Association*. 110(512): 1455-1456. 2016.
 
 &nbsp;
 

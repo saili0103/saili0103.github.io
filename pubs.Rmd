@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Sai Li**, Tianxi Cai, and Rui Duan. [Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach](https://arxiv.org/abs/2108.12112). *Annals of Applied Statistics (accepted)*. 2023.
 
-**Sai Li**, Linjun Zhang, Tony Cai and Honghze Li. Estimation and inference in high-dimensional generalized linear models with knowledge transfer. *Journal of the American Statistical Association (in revision)*. 2021.
+**Sai Li**, Linjun Zhang, T. Tony Cai, and Honghze Li. [Estimation and inference in high-dimensional generalized linear models with knowledge transfer](https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2184373). *Journal of the American Statistical Association (accepted)*. 2023.
 
 
 
@@ -49,14 +49,17 @@ knitr::opts_chunk$set(echo = TRUE)
 &nbsp;
 
 ## Other collaborative works
-**Sai Li**, Ritwik Mitra, and Cun-Hui Zhang.
-[Comment: An adaptive resampling test for detecting the presence of significant predictors](   http://dx.doi.org/10.1080/01621459.2015.1106404). *Journal of the American Statistical Association*. 110(512): 1455-1456. 2016.
 
-Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association (in revision)*. 2021.
+**Sai Li**, Yisha Yao, and Cun-Hui Zhang.
+Comment: A Scale-Free Approach for False Discovery Rate Control in Generalized Linear Models. *Journal of the American Statistical Association(accepted)*. 2023.
 
 Huaxiu Yao, Yu Wang, **Sai Li**, Linjun Zhang, Weixin Liang, James Zou, and Chelsea Finn. [ Improving out-of-distribution robustness via selective augmentation](https://arxiv.org/abs/2201.00299). *International Conference of Machine Learning*. 2022.
 
+Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association (in revision)*. 2021.
 
+
+**Sai Li**, Ritwik Mitra, and Cun-Hui Zhang.
+[Comment: An adaptive resampling test for detecting the presence of significant predictors](   http://dx.doi.org/10.1080/01621459.2015.1106404). *Journal of the American Statistical Association*. 110(512): 1455-1456. 2016.
 
 
 
