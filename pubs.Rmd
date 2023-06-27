@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Transfer learning
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *JRSSB (accepted)*, 2021.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *Journal of the Royal Statistical Society Series B*, 84: 149–173, 2022.
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Journal of the American Statistical Association (accepted)*. 2022.
 
