@@ -50,12 +50,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Other collaborative works
 
+Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association(accepted)*. 2023.
+
 **Sai Li**, Yisha Yao, and Cun-Hui Zhang.
 Comment: A Scale-Free Approach for False Discovery Rate Control in Generalized Linear Models. *Journal of the American Statistical Association(accepted)*. 2023.
 
 Huaxiu Yao, Yu Wang, **Sai Li**, Linjun Zhang, Weixin Liang, James Zou, and Chelsea Finn. [ Improving out-of-distribution robustness via selective augmentation](https://arxiv.org/abs/2201.00299). *International Conference of Machine Learning*. 2022.
-
-Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association (in revision)*. 2021.
 
 
 **Sai Li**, Ritwik Mitra, and Cun-Hui Zhang.

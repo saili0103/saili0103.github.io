@@ -63,6 +63,7 @@ Huaxiu Yao, Yu Wang, **Sai Li**, Linjun Zhang, Weixin Liang, James Zou, and Chel
 
 **Sai Li**, Linjun Zhang, T. Tony Cai, and Honghze Li. [Estimation and inference in high-dimensional generalized linear models with knowledge transfer](https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2184373). *Journal of the American Statistical Association (accepted)*. 2023.
 
+ Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association(accepted)*. 2023.
  
  **Sai Li**, Yisha Yao, and Cun-Hui Zhang.
 Comment: A Scale-Free Approach for False Discovery Rate Control in Generalized Linear Models. *Journal of the American Statistical Association(accepted)*. 2023.
@@ -72,9 +73,6 @@ Comment: A Scale-Free Approach for False Discovery Rate Control in Generalized L
 
 
 **Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *under revision*. 2020.
-
-
-Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association (in revision)*. 2021.
 
 
 
