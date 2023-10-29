@@ -55,13 +55,13 @@ Mentors: Professor [Hongzhe Lee](http://statgene.med.upenn.edu) and Professor [T
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *Journal of the Royal Statistical Society Series B*, 84: 149–173, 2022.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Journal of the American Statistical Association (accepted)*. 2022.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://www.tandfonline.com/doi/full/10.1080/01621459.2022.2044333?needAccess=true). *Journal of the American Statistical Association*.118(543): 2171–2183. 2023.
 
 Huaxiu Yao, Yu Wang, **Sai Li**, Linjun Zhang, Weixin Liang, James Zou, and Chelsea Finn. [ Improving out-of-distribution robustness via selective augmentation](https://arxiv.org/abs/2201.00299). *International Conference of Machine Learning*. 2022.
 
 **Sai Li**, Tianxi Cai, and Rui Duan. [Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach](https://arxiv.org/abs/2108.12112). *Annals of Applied Statistics (accepted)*. 2023.
 
-**Sai Li**, Linjun Zhang, T. Tony Cai, and Honghze Li. [Estimation and inference in high-dimensional generalized linear models with knowledge transfer](https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2184373). *Journal of the American Statistical Association*. 118(543):, 2171–2183. 2023.
+**Sai Li**, Linjun Zhang, T. Tony Cai, and Honghze Li. [Estimation and inference in high-dimensional generalized linear models with knowledge transfer](https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2184373). *Journal of the American Statistical Association(accepted)*. 2023.
 
  Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association(accepted)*. 2023.
  
