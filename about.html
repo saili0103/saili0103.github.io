@@ -13,7 +13,7 @@
 
 <title>Resume</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -142,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -344,15 +341,16 @@ Approach</a>. <em>Annals of Applied Statistics (accepted)</em>.
 href="https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2184373">Estimation
 and inference in high-dimensional generalized linear models with
 knowledge transfer</a>. <em>Journal of the American Statistical
-Association (accepted)</em>. 2023.</p>
+Association</em>. 118(543):, 2171–2183. 2023.</p>
 <p>Jianqiao Wang, <strong>Sai Li</strong>, and Hongzhe Li. <a
 href="https://arxiv.org/abs/2106.04106">A unified approach to robust
 inference for genetic covariance</a>. <em>Journal of the American
 Statistical Association(accepted)</em>. 2023.</p>
-<p><strong>Sai Li</strong>, Yisha Yao, and Cun-Hui Zhang. Comment: A
-Scale-Free Approach for False Discovery Rate Control in Generalized
-Linear Models. <em>Journal of the American Statistical
-Association(accepted)</em>. 2023.</p>
+<p><strong>Sai Li</strong>, Yisha Yao, and Cun-Hui Zhang. <a
+href="https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2224412?src=recsys">Comment:
+A Scale-Free Approach for False Discovery Rate Control in Generalized
+Linear Models</a> <em>Journal of the American Statistical
+Association</em> 118(543):1586-1589. 2023.</p>
 <p><strong>Sai Li</strong>, Ritwik Mitra, and Cun-Hui Zhang. <a
 href="http://dx.doi.org/10.1080/01621459.2015.1106404">Comment: An
 adaptive resampling test for detecting the presence of significant
