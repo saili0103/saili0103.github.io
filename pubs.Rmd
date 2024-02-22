@@ -15,26 +15,26 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach](https://arxiv.org/abs/1907.06116). *Journal of the American Statistical Association*. 117(540): 1835-1846, 2022.
 
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Estimation and Inference with Proxy Data and its Genetic Applications](https://arxiv.org/abs/2201.03727). *Statistica Sinica(accepted)*. 2024.
 
-Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association(accepted)*. 2023.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Estimation and Inference with Proxy Data and its Genetic Applications](https://arxiv.org/abs/2201.03727). *In revision*. 2022.
 
-Zhanrui Cai, **Sai Li**, Xintao Xia, Linjun Zhang. [Private Estimation and Inference in High-Dimensional Regression with FDR Control](https://arxiv.org/abs/2310.16260). *Submitted*. 2023
 
 &nbsp;
 
-## Transfer learning, Domain generalization
+## Transfer learning and domain generalization
+
+**Sai Li** and Linjun Zhang. [Multi-dimensional domain generalization with low-rank structures](https://arxiv.org/abs/2309.09555). *Submitted*. 2023.
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://arxiv.org/abs/2006.10593). *Journal of the Royal Statistical Society Series B*, 84: 149–173, 2022.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://www.tandfonline.com/doi/full/10.1080/01621459.2022.2044333?needAccess=true). *Journal of the American Statistical Association*, 118(543): 2171–2183. 2023.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://arxiv.org/abs/2010.11037). *Journal of the American Statistical Association (accepted)*. 2022.
 
-**Sai Li**, Tianxi Cai, and Rui Duan. [Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach](https://arxiv.org/abs/2108.12112). *Annals of Applied Statistics*, 17(4): 2970-2992. 2023.
+**Sai Li**, Tianxi Cai, and Rui Duan. [Targeting Underrepresented Populations in Precision Medicine: A Federated Transfer Learning Approach](https://arxiv.org/abs/2108.12112). *Annals of Applied Statistics (accepted)*. 2023.
 
-**Sai Li**, Linjun Zhang, T. Tony Cai, and Honghze Li. [Estimation and inference in high-dimensional generalized linear models with knowledge transfer](https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2184373). *Journal of the American Statistical Association(accepted)*. 2023.
+**Sai Li**, Linjun Zhang, T. Tony Cai, and Hongzhe Li. [Estimation and inference in high-dimensional generalized linear models with knowledge transfer](https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2184373). *Journal of the American Statistical Association (accepted)*. 2023.
 
-**Sai Li** and Linjun Zhang. [Multi-dimensional domain generalization with low-rank structures](https://arxiv.org/abs/2309.09555). *Submitted*. 2023.
+
 
 
 &nbsp;
@@ -52,8 +52,10 @@ Zhanrui Cai, **Sai Li**, Xintao Xia, Linjun Zhang. [Private Estimation and Infer
 
 ## Other collaborative works
 
+Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association(accepted)*. 2023.
+
 **Sai Li**, Yisha Yao, and Cun-Hui Zhang.
-[Comment: A Scale-Free Approach for False Discovery Rate Control in Generalized Linear Models](https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2224412?src=recsys) *Journal of the American Statistical Association* 118(543):1586-1589. 2023.
+Comment: A Scale-Free Approach for False Discovery Rate Control in Generalized Linear Models. *Journal of the American Statistical Association(accepted)*. 2023.
 
 Huaxiu Yao, Yu Wang, **Sai Li**, Linjun Zhang, Weixin Liang, James Zou, and Chelsea Finn. [ Improving out-of-distribution robustness via selective augmentation](https://arxiv.org/abs/2201.00299). *International Conference of Machine Learning*. 2022.
 
