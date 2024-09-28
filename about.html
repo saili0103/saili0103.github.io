@@ -13,7 +13,7 @@
 
 <title>Resume</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
@@ -142,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -175,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -184,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -323,8 +320,8 @@ linear mixed-effects models: A quasi-likelihood approach</a>.
 <p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a
 href="https://academic.oup.com/jrsssb/article/84/1/149/7056104">Transfer
 learning for high-dimensional linear regression: Prediction, estimation,
-and minimax optimality</a>. <em>Journal of the Royal Statistical Society
-Series B</em>, 84: 149–173, 2022.</p>
+and minimax optimality</a>. <em>Journal of the Royal Statistical
+Society: Series B</em>, 84: 149–173, 2022.</p>
 <p><strong>Sai Li</strong>, T. Tony Cai, and Hongzhe Li. <a
 href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2022.2044333">Transfer
 learning in large-scale graphical models with false discovery rate
@@ -357,7 +354,15 @@ Sinica(accepted)</em>. 2024.</p>
 <p>Ziya Xu and <strong>Sai Li</strong>. <a
 href="https://arxiv.org/abs/2402.02329">Leveraging Local Distributions
 in Mendelian Randomization: Uncertain Opinions are Invalid</a>.
-<em>Statistica Sinica (accepted)</em>. 2024.</p>
+<em>Statistica Sinica (accepted)</em>. 2024. (with my student)</p>
+<p><strong>Sai Li</strong> and Ting Ye. <a
+href="https://arxiv.org/abs/2203.06887">A Focusing Framework for Testing
+Bi-Directional Causal Effects with GWAS Summary Data</a>. <em>Journal of
+the Royal Statistical Society: Series B (accepted)</em>. 2024.</p>
+<p>Zhanrui Cai, <strong>Sai Li</strong>, Xintao Xia, and Linjun Zhang.
+<a href="https://arxiv.org/abs/2310.16260">Differentially Private
+Estimation and Inference in High-Dimensional Regression with FDR
+Control</a>. <em>(submitted).</em> 2024. (alphabetical order)</p>
 <p><strong>Sai Li</strong>, Yisha Yao, and Cun-Hui Zhang. Comment: <a
 href="https://www.tandfonline.com/doi/abs/10.1080/01621459.2023.2224412">A
 Scale-Free Approach for False Discovery Rate Control in Generalized
@@ -375,10 +380,6 @@ report</em>. 2020.</p>
 <p>Elynn Chen, Michael Jordan, <strong>Sai Li</strong>. <a
 href="https://arxiv.org/abs/2202.04709">Transferred Q-learning</a>.
 <em>submitted</em>. 2022.</p>
-<p><strong>Sai Li</strong> and Ting Ye. <a
-href="https://arxiv.org/abs/2203.06887">A Focusing Framework for Testing
-Bi-Directional Causal Effects with GWAS Summary Data</a>.
-<em>Submitted</em>. 2022.</p>
 <p> </p>
 </div>
 <div id="conference-talks-and-service" class="section level2">

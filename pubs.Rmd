@@ -41,11 +41,12 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Causal inference
 
+**Sai Li** and Ting Ye. [A Focusing Framework for Testing Bi-Directional Causal Effects with GWAS Summary Data](https://arxiv.org/abs/2203.06887). *Journal of the Royal Statistical Society: Series B (accepted)*. 2024.
+
+Ziya Xu and **Sai Li**. [Leveraging Local Distributions in Mendelian Randomization: Uncertain Opinions are Invalid](https://arxiv.org/abs/2402.02329). *Statistica Sinica (accepted)*. 2024. (with my student)
+
 Wei Li, Rui Duan, and **Sai Li**. [Discovery and inference of possibly bi-directional causal relationships with invalid instrumental variables](https://arxiv.org/abs/2407.11646). *Submitted*. 2024.
 
-Ziya Xu and **Sai Li**. [Leveraging Local Distributions in Mendelian Randomization: Uncertain Opinions are Invalid](https://arxiv.org/abs/2402.02329). *Statistica Sinica (accepted)*. 2024.
-
-**Sai Li** and Ting Ye. [A Focusing Framework for Testing Bi-Directional Causal Effects with GWAS Summary Data](https://arxiv.org/abs/2203.06887). *Submitted*. 2022.
 
 **Sai Li** and Zijian Guo. [Causal inference for nonlinear outcomes with possibly invalid instrumentalvariables](http://arxiv.org/abs/2010.09922). *Technical report*. 2020.
 
@@ -56,8 +57,9 @@ Ziya Xu and **Sai Li**. [Leveraging Local Distributions in Mendelian Randomizati
 &nbsp;
 
 ## Other collaborative works
+Zhanrui Cai, **Sai Li**, Xintao Xia, and Linjun Zhang. [Differentially Private Estimation and Inference in High-Dimensional Regression with FDR Control](https://arxiv.org/abs/2310.16260). *(submitted).* 2024. (alphabetical order)
 
-Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association(accepted)*. 2023.
+Jianqiao Wang, **Sai Li**, and Hongzhe Li. [A unified approach to robust inference for genetic covariance](https://arxiv.org/abs/2106.04106). *Journal of the American Statistical Association (accepted)*. 2023.
 
 **Sai Li**, Yisha Yao, and Cun-Hui Zhang.
 Comment: A Scale-Free Approach for False Discovery Rate Control in Generalized Linear Models. *Journal of the American Statistical Association(accepted)*. 2023.

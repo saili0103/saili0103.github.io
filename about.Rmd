@@ -53,7 +53,7 @@ Mentors: Professor [Hongzhe Lee](http://statgene.med.upenn.edu) and Professor [T
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Inference for high-dimensional linear mixed-effects models: A quasi-likelihood approach](https://arxiv.org/abs/1907.06116). *Journal of the American Statistical Association*. 117(540): 1835-1846, 2022.
 
-**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://academic.oup.com/jrsssb/article/84/1/149/7056104). *Journal of the Royal Statistical Society Series B*, 84: 149–173, 2022.
+**Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning for high-dimensional linear regression: Prediction, estimation, and minimax optimality](https://academic.oup.com/jrsssb/article/84/1/149/7056104). *Journal of the Royal Statistical Society: Series B*, 84: 149–173, 2022.
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Transfer learning in large-scale graphical models with false discovery rate control](https://www.tandfonline.com/doi/abs/10.1080/01621459.2022.2044333). *Journal of the American Statistical Association*.118(543), 2171-2183, 2023.
 
@@ -67,7 +67,11 @@ Huaxiu Yao, Yu Wang, **Sai Li**, Linjun Zhang, Weixin Liang, James Zou, and Chel
 
 **Sai Li**, T. Tony Cai, and Hongzhe Li. [Estimation and Inference with Proxy Data and its Genetic Applications](https://arxiv.org/abs/2201.03727). *Statistica Sinica(accepted)*. 2024.
 
-Ziya Xu and **Sai Li**. [Leveraging Local Distributions in Mendelian Randomization: Uncertain Opinions are Invalid](https://arxiv.org/abs/2402.02329). *Statistica Sinica (accepted)*. 2024.
+Ziya Xu and **Sai Li**. [Leveraging Local Distributions in Mendelian Randomization: Uncertain Opinions are Invalid](https://arxiv.org/abs/2402.02329). *Statistica Sinica (accepted)*. 2024. (with my student)
+
+**Sai Li** and Ting Ye. [A Focusing Framework for Testing Bi-Directional Causal Effects with GWAS Summary Data](https://arxiv.org/abs/2203.06887). *Journal of the Royal Statistical Society: Series B (accepted)*. 2024.
+
+Zhanrui Cai, **Sai Li**, Xintao Xia, and Linjun Zhang. [Differentially Private Estimation and Inference in High-Dimensional Regression with FDR Control](https://arxiv.org/abs/2310.16260). *(submitted).* 2024. (alphabetical order)
 
  **Sai Li**, Yisha Yao, and Cun-Hui Zhang.
 Comment: [A Scale-Free Approach for False Discovery Rate Control in Generalized Linear Models](https://www.tandfonline.com/doi/abs/10.1080/01621459.2023.2224412). *Journal of the American Statistical Association(accepted)*. 2023.
@@ -81,7 +85,6 @@ Comment: [A Scale-Free Approach for False Discovery Rate Control in Generalized 
 
 Elynn Chen, Michael Jordan, **Sai Li**. [Transferred Q-learning](https://arxiv.org/abs/2202.04709). *submitted*. 2022.
 
-**Sai Li** and Ting Ye. [A Focusing Framework for Testing Bi-Directional Causal Effects with GWAS Summary Data](https://arxiv.org/abs/2203.06887). *Submitted*. 2022.
 
 &nbsp;
 
