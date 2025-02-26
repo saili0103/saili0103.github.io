@@ -34,7 +34,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Sai Li**, Linjun Zhang, T. Tony Cai, and Hongzhe Li. [Estimation and inference in high-dimensional generalized linear models with knowledge transfer](https://www.tandfonline.com/doi/full/10.1080/01621459.2023.2184373). *Journal of the American Statistical Association*. 119(546), 1274-1285, 2024.
 
-
+**Sai Li** and Linjun Zhang. [Multi-dimensional domain generalization with low-rank structures](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2471055?src=exp-la). *Journal of the American Statistical Association(accepted)*. 2025.
 
 
 &nbsp;

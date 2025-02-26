@@ -71,6 +71,8 @@ Ziya Xu and **Sai Li**. [Leveraging Local Distributions in Mendelian Randomizati
 
 **Sai Li** and Ting Ye. [A Focusing Framework for Testing Bi-Directional Causal Effects with GWAS Summary Data](https://arxiv.org/abs/2203.06887). *Journal of the Royal Statistical Society: Series B (accepted)*. 2024.
 
+**Sai Li** and Linjun Zhang. [Multi-dimensional domain generalization with low-rank structures](https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2471055?src=exp-la). *Journal of the American Statistical Association(accepted)*. 2025.
+
 Zhanrui Cai, **Sai Li**, Xintao Xia, and Linjun Zhang. [Differentially Private Estimation and Inference in High-Dimensional Regression with FDR Control](https://arxiv.org/abs/2310.16260). *(submitted).* 2024. (alphabetical order)
 
  **Sai Li**, Yisha Yao, and Cun-Hui Zhang.
